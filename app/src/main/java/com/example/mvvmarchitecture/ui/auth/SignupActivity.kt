@@ -1,11 +1,13 @@
-package com.example.mvvmarchitecture
+package com.example.mvvmarchitecture.ui.auth
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.mvvmarchitecture.R
 
-class MainActivity : AppCompatActivity() {
+class SignupActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_signup)
+
     }
 }
